@@ -7,35 +7,44 @@ body{
 background-image: url("zoro15.jpg");
 background-attachment: fixed;
 background-size: contain;
+font-family: cursive;
+font-size: 20px;
+color: white;
 }
-#nami {
 
+
+.borda{
+  margin: 4%;
+  border: 0px solid white;
+  padding: 5%;
+}
+
+
+#nami {
+  margin-top: 100px;
   width: 300px;
   display: block;
-  margin: 300px;
   margin-left: auto;
   margin-right: auto;
 
 }
 h1 {
   font-family: Luckiest Guy;
-  display: inline;
   font-size: 50px;
-  margin-left:400px;
-  margin-right: 10px;
+  margin-left:auto;
+  margin-right: auto;
+  text-align: center;
 }
 h2 {
   font-family: Luckiest Guy;
-  display: inline;
   font-size: 30px;
-  margin-left: 10     px;
-  margin-right: 5opx;
+text-align: center;
 }
 h3{
   font-family: Luckiest Guy;
   display: inline;
   font-size: 30px;
-  margin-left: 400000px;
+  margin-left: 40px;
   margin-right: 5px;
 }
 h4 {
@@ -45,45 +54,14 @@ h4 {
   margin-left: 50px;
   margin-right: 50px;
 }
-h5 {
-  font-family: Luckiest Guy;
-  display: inline;
-  font-size: 30px;
-  margin-left: 50px;
-  margin-right: 50px;
+
+a:link{
+  color: green;
 }
-h6 {
-  font-family: Luckiest Guy;
-  display: inline;
-  font-size: 30px;
-  margin-left: 50px;
-  margin-right: 50px;
+a:hover{
+  color: white;
 }
-h7 {
-  font-family: Luckiest Guy;
-  display: inline;
-  font-size: 30px;
-  margin-left: 50px;
-  margin-right: 50px;
-}
-h8 {
-  font-family: Luckiest Guy;
-  display: inline;
-  font-size: 30px;
-  margin-left: 50px;
-  margin-right: 50px;
-}
-h9 {
-  font-family: Luckiest Guy;
-  display: inline;
-  font-size: 30px;
-  margin-left: 50px;
-  margin-right: 50px;
-}
-h10 {
-  font-family: Luckiest Guy;
-  display: inline;
-  font-size: 30px;
-  margin-left: 50px;
-  margin-right: 50px;
+
+#foto{
+  width: 300px;
 }
